@@ -1,0 +1,11 @@
+# analysis + figures (CPU only, seconds to run)
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+pyarrow>=14.0
+matplotlib>=3.7
+
+# only needed to re-score from scratch in notebooks/CEDE_study.ipynb (GPU)
+# torch>=2.0
+# transformers>=4.40
+# accelerate>=0.30
