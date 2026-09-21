@@ -163,7 +163,11 @@ variable, not an incidental one.
   title  = {Position, not importance: what a likelihood threshold actually defers on},
   author = {Shubhanandan},
   year   = {2026},
-  note   = {Preprint. CEDE-Bench and pipeline: https://github.com/<user>/cede-bench}
+  note   = {Preprint. CEDE-Bench and pipeline: @misc{cedebench2026,
+  title  = {Position, not importance: what a likelihood threshold actually defers on},
+  author = {Shubhanandan},
+  year   = {2026},
+  note   = {Preprint. CEDE-Bench and pipeline: https://github.com/<user>/cede-bench}}
 }
 ```
 
