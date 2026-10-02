@@ -1,10 +1,29 @@
 cff-version: 1.2.0
 title: "CEDE-Bench: consequential-but-everyday coding decisions"
-message: "If you use this benchmark or the analysis, please cite the preprint."
+message: "If you use this benchmark or the analysis, please cite the paper."
 type: dataset
 authors:
   - given-names: Shubhanandan
+    family-names: T Y
     email: shubh442005@gmail.com
+    orcid: "https://orcid.org/0009-0006-2182-4510"
+    affiliation: "Department of AI & Robotics, Dayananda Sagar University, Bengaluru, Karnataka, India"
+  - given-names: Mohan
+    family-names: V S
+    email: vsmohan712@gmail.com
+    orcid: "https://orcid.org/0009-0003-4421-5281"
+    affiliation: "Department of AI & Robotics, Dayananda Sagar University, Bengaluru, Karnataka, India"
+  - given-names: Bharath Kumar
+    family-names: Shanmugam
+    email: shanmugabharathkumar@gmail.com
+    orcid: "https://orcid.org/0000-0003-4535-3697"
+    affiliation: "Department of AI & Robotics, Dayananda Sagar University, Bengaluru, Karnataka, India"
+  - given-names: Puneeth
+    family-names: N
+    email: puneethn0015@gmail.com
+    orcid: "https://orcid.org/0000-0002-2683-5087"
+    affiliation: "Department of AI & Robotics, Dayananda Sagar University, Bengaluru, Karnataka, India"
+repository-code: "https://github.com/ShubhaNandanTY/CEDE-Deferring-for-the-Wrong-Reasons"
 license: MIT
 date-released: 2026-09-12
 keywords:
@@ -19,3 +38,10 @@ preferred-citation:
   year: 2026
   authors:
     - given-names: Shubhanandan
+      family-names: T Y
+    - given-names: Mohan
+      family-names: V S
+    - given-names: Bharath Kumar
+      family-names: Shanmugam
+    - given-names: Puneeth
+      family-names: N

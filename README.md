@@ -3,6 +3,9 @@
 **Consequential-but-Everyday DEcisions.** A benchmark and analysis pipeline for measuring what a
 likelihood-thresholded deference rule actually defers on.
 
+**Authors:** Shubhanandan T Y, Mohan V S ([@Mohan404040](https://github.com/Mohan404040)), Bharath Kumar Shanmugam, Puneeth N  
+Department of AI & Robotics, Dayananda Sagar University, Bengaluru, Karnataka, India
+
 This repository holds the benchmark, the archived scored run, and every script that produces the
 numbers and figures in the paper *Position, not importance: what a likelihood threshold actually
 defers on* ([`paper/paper.pdf`](paper/paper.pdf)).
@@ -161,13 +164,9 @@ variable, not an incidental one.
 ```bibtex
 @misc{cedebench2026,
   title  = {Position, not importance: what a likelihood threshold actually defers on},
-  author = {Shubhanandan},
+  author = {T Y, Shubhanandan and V S, Mohan and Shanmugam, Bharath Kumar and N, Puneeth},
   year   = {2026},
-  note   = {Preprint. CEDE-Bench and pipeline: @misc{cedebench2026,
-  title  = {Position, not importance: what a likelihood threshold actually defers on},
-  author = {Shubhanandan},
-  year   = {2026},
-  note   = {Preprint. CEDE-Bench and pipeline: https://github.com/<user>/cede-bench}}
+  note   = {Preprint. CEDE-Bench and pipeline: https://github.com/ShubhaNandanTY/CEDE-Deferring-for-the-Wrong-Reasons}
 }
 ```
 
