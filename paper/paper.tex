@@ -47,9 +47,11 @@
 {\LARGE\bfseries Position, not importance:\\[0.25em]
 what a likelihood threshold actually defers on\par}
 \vspace{1.1em}
-{\large Shubhanandan\par}
+{\large Shubhanandan T Y \quad Mohan V S \quad Bharath Kumar Shanmugam \quad Puneeth N\par}
 \vspace{0.35em}
-{\small\texttt{shubh442005@gmail.com}\par}
+{\small Department of AI \& Robotics, Dayananda Sagar University, Bengaluru, Karnataka, India\par}
+\vspace{0.2em}
+{\small\texttt{\{shubh442005, vsmohan712, shanmugabharathkumar, puneethn0015\}@gmail.com}\par}
 \vspace{0.9em}
 {\small September 12, 2026\par}
 \end{center}
@@ -218,9 +220,10 @@ real programmers \citep{mozannar2024} measure preference, acceptance, and task t
 would surface a deferral policy that is uncorrelated with stakes.
 
 \paragraph{Over-assistance}
-Concurrent work on LLM tutors reports the same shape of error in a different setting: teacher models
-intervene in 90\% of trials against an oracle's 54\%, and do so at 18\% of the way through the
-student's reasoning rather than 56\% \citep{intbench2026}. Interventions land early and without
+Concurrent work on LLM tutors reports the same shape of error in a different setting: on the
+Int-Bench framework of \citet{intbench2026}, teacher models in the standard condition intervene in
+90\% of trials and do so at 18\% of the way through the student's reasoning, against 54\% and 56\%
+in the oracle condition. Interventions land early and without
 regard to whether they were needed. We find the mirror image inside a single completion.
 
 \section{Method}
@@ -654,7 +657,7 @@ importance, and the two should stop being described as the same thing.
 CEDE-Bench (112 decision items with 12 controls, JSON Lines), the authoring kit and validator, the
 scoring notebook, the archived scored table, and the analysis and figure scripts that produce every
 number and panel in this paper are released together at
-\url{https://github.com/}\texttt{<user>}\texttt{/cede-bench}. A verification script re-derives all
+\url{https://github.com/ShubhaNandanTY/CEDE-Deferring-for-the-Wrong-Reasons}. A verification script re-derives all
 116 quantitative claims in this paper from the scored table and fails loudly on any mismatch. All
 results come from a single scoring run with a Qwen2.5-Coder-0.5B-Instruct likelihood model, no
 problem context, fixed seed 0, bootstrap $n = 5{,}000$.
@@ -725,10 +728,6 @@ A probabilistic Earley parser as a psycholinguistic model.
 E.~Horvitz.
 Principles of mixed-initiative user interfaces.
 \emph{ACM Conference on Human Factors in Computing Systems}, 1999.
-
-\bibitem[Int-Bench(2026)]{intbench2026}
-AI assistants overassist: intervention timing in LLM tutors.
-\emph{arXiv:2607.21306}, 2026.
 
 \bibitem[Jaeger(2010)]{jaeger2010}
 T.~F. Jaeger.
@@ -847,6 +846,11 @@ Does automation bias decision-making?
 N.~J. Smith and R.~Levy.
 The effect of word predictability on reading time is logarithmic.
 \emph{Cognition}, 128(3):302--319, 2013.
+
+\bibitem[Teo et~al.(2026)]{intbench2026}
+V.~Teo, R.~Jain, T.~Gerstenberg, and M.~Kleiman-Weiner.
+AI assistants overassist.
+\emph{arXiv:2607.21306}, 2026.
 
 \bibitem[Vasconcelos et al.(2023)]{vasconcelos2023}
 H.~Vasconcelos, G.~Bansal, A.~Fourney, Q.~V. Liao, and J.~W. Vaughan.
